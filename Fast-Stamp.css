@@ -8,6 +8,26 @@ body {
     font-weight: 100;
 }
 
+button{
+	font-family: Helvetica;
+	border-radius: 10px;
+	background-color: #4A90E2;
+	color: White;
+	text-align: center;
+	margin: auto;
+	font-size: 40px;
+	size: 70px;
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+button:border{ 
+
+}
+
 #nav {
     text-align: center;
 }
@@ -15,13 +35,39 @@ body {
     display: inline-block;
     padding: 1em;
 }
+.banner{
+	height: 300px;
+	background-color: #DC493A;
+}
 
+.content{
+	width: 900px;
+	height: 400px;
+	margin: auto;
+}
+
+.inner-content{
+	background-color: #fff;
+	height: 480px;
+	position: relative;
+	top: -40px;
+}
 
 .clearfix:after {
     content:" ";
     display:block;
     clear:both;
 }
+
+.circle {
+	font-family: Helvetica;
+	border-radius: 30px;
+    width: calc(10% - 1em);
+    height:20px;
+    margin: 1em;
+    float: left;
+	background-color: #7CD9BB;
+            }
 
 
 
