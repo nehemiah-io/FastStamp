@@ -90,14 +90,21 @@ body, html{
     clear:both;
 }
 
+.circle-container {
+    position: absolute;
+    top: 250px; 
+}
 .circle {
 	font-family: Helvetica;
+    font-size: 20px;
 	text-align: center;
-	border-radius: 30px;
-    width: calc(10% - 4.5em);
-    height:20px;
+	border-radius: 50px;
+    line-height: 50px;
+    width:50px;
+    height:50px;
     margin: 1em;
-	background-color: #7CD9BB;
+	color: #fff;
+    background:#7CD9BB;
 }
 
 .header {
