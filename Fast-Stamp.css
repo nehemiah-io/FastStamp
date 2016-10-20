@@ -20,26 +20,31 @@ body, html{
 	margin: auto;
 }
 
-button{
-	font-family: Helvetica;
-	border-radius: 10px;
+.button{
+	font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+	border-radius: 15px;
 	background-color: #4A90E2;
 	color: White;
 	text-align: center;
 	margin: auto;
 	font-size: 40px;
 	size: 70px;
-	position: relative;
-	bottom: -10px;
+	position: absolute;
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
 
 }
 
 #nav {
     text-align: right;
     color: white;
-    background-color: #DC493A;
+    background-color: #FF816E;
 }
 #nav div {
     display: inline-block;
@@ -63,7 +68,7 @@ button{
 
 .banner{
 	height: 100px;
-	background-color: #DC493A;
+	background-color: #FF816E;
 }
 
 .content{
