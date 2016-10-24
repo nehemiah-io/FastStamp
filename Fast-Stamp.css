@@ -90,9 +90,6 @@ body, html{
     clear:both;
 }
 
-.application-container {
-    
-}
 
 .circle-container {
     position: absolute;
@@ -112,17 +109,20 @@ body, html{
     background:#7CD9BB;
 }
 
-
-.section {
-    position: absolute;
+.section-container {
     
+}
+.section {
+    position: relative;
+    float: left;
+    padding: 15px;
+    left: 10%;
 }
 
 .section-heading {
-    padding-bottom: 10px;
-    padding-top: 10px;
     font-size: 36px; 
     font-family: 'Dosis', sans-serif;
+    color: gray;
 }
 
 .header {
