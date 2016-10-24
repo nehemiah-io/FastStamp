@@ -108,6 +108,14 @@ body, html{
     background:#7CD9BB;
 }
 
+.section-container {
+    
+}
+
+.section {
+    background-color: lightcyan;
+}
+
 .header {
     text-align: center;
 }
