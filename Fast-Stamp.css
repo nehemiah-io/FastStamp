@@ -112,19 +112,15 @@ body, html{
     background:#7CD9BB;
 }
 
-.section-container {
-    left: 200px;
-    top: 275px;
-    position: absolute;
-}
 
 .section {
-    padding-bottom: 25px;
-    padding-top: 5px;
+    position: absolute;
     
 }
 
 .section-heading {
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: 36px; 
     font-family: 'Dosis', sans-serif;
 }
