@@ -110,19 +110,19 @@ body, html{
 }
 
 .section-container {
-    
+    float: left;
 }
 .section {
-    position: relative;
-    float: left;
-    padding: 15px;
-    left: 10%;
+    
 }
 
 .section-heading {
     font-size: 36px; 
     font-family: 'Dosis', sans-serif;
     color: gray;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    position: absolute;
 }
 
 .header {
