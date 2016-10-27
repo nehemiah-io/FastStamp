@@ -14,30 +14,35 @@ body {
 }
 
 body, html{
-	height: 100%;
-	max-width: 1200px;
-	width: 100%;
-	margin: auto;
+    height: 100%;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 
 .button{
-	font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 10px;
-	border-radius: 15px;
-	background-color: #4A90E2;
-	color: White;
-	text-align: center;
-	margin: auto;
-	font-size: 40px;
-	size: 70px;
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #4A90E2;
+    color: White;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    size: 70px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding-top: 5px;
     padding-bottom: 10px;
     padding-right: 25px;
     padding-left: 25px;
+
+}
+
+.button:hover{
+    background-color: #8DBBF1;
 
 }
 
@@ -52,36 +57,36 @@ body, html{
     margin-top: 20px;
 }
 #nav div:last-child{
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 .title{
- 	font-family: 'Dosis', sans-serif;
- 	color: White;
- 	text-align: left;
- 	float: left;
- 	margin-left: 20px;
- 	font-size: 36px;
- 	line-height: .5;
+    font-family: 'Dosis', sans-serif;
+    color: White;
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+    font-size: 36px;
+    line-height: .5;
 
 }
 
 .banner{
-	height: 100px;
-	background-color: #FF816E;
+    height: 100px;
+    background-color: #FF816E;
 }
 
 .content{
-	width: 900px;
-	height: 400px;
-	margin: auto;
+    width: 900px;
+    height: 400px;
+    margin: auto;
 }
 
 .inner-content{
-	background-color: #fff;
-	height: 480px;
-	position: relative;
-	top: -40px;
+    background-color: #fff;
+    height: 480px;
+    position: relative;
+    top: -40px;
 }
 
 .clearfix:after {
@@ -90,6 +95,9 @@ body, html{
     clear:both;
 }
 
+.application-container {
+    
+}
 
 .circle-container {
     position: absolute;
@@ -97,32 +105,33 @@ body, html{
     left: 75px;
 }
 .circle {
-	font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
-	text-align: center;
-	border-radius: 50px;
+    text-align: center;
+    border-radius: 50px;
     line-height: 50px;
     width:50px;
     height:50px;
     margin: 1em;
-	color: #fff;
+    color: #fff;
     background:#7CD9BB;
 }
 
 .section-container {
-    
+    left: 200px;
+    top: 275px;
+    position: absolute;
 }
+
 .section {
-    position: relative;
-    float: left;
-    padding: 15px;
-    left: 10%;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    
 }
 
 .section-heading {
     font-size: 36px; 
     font-family: 'Dosis', sans-serif;
-    color: gray;
 }
 
 .header {
