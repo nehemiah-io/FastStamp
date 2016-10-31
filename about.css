@@ -1,0 +1,46 @@
+/* specific css rules for the about page */
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Rubik:300');
+
+.about-container {
+    
+  color: dimgray;
+  margin-left: 1%;
+}
+
+.about-title h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    
+}
+
+.what h2 {
+    font-size: 35px;
+    
+}
+
+.what p {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.why h2 {
+    font-size: 35px;
+}
+
+.why p {
+    font-size: 23px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.who h2 {
+    font-size: 35px;
+}
+
+who p {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    
+}

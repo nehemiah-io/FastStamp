@@ -1,0 +1,28 @@
+/* specific css rules for the help page */
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Rubik:300');
+
+.help-container {
+    color: dimgray;
+    margin-left: 1%;
+}
+
+.help-title h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+}
+
+.help-title h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+}
+
+.help-title h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+
+.help-title p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+}

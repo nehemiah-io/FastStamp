@@ -1,0 +1,23 @@
+/* specific css rules for the contact page */
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Rubik:300');
+
+.contact-container {
+    color: dimgray;
+    margin-left: 1%;
+}
+
+.contact-title h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+}
+
+.contact-title h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+}
+
+.contact-title h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+}

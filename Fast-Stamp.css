@@ -5,8 +5,6 @@
     margin: auto;
 }
 
-
-
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 100;
@@ -40,6 +38,15 @@ body, html{
     padding-left: 25px;
 
 }
+
+.button:hover {
+    background-color: #7BAEE9;
+}
+
+.button:active {
+    background-color: #9CC2EF;
+}
+
 
 #nav {
     text-align: right;
@@ -128,3 +135,5 @@ body, html{
 .header {
     text-align: center;
 }
+
+
