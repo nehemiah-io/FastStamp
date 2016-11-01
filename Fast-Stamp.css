@@ -12,14 +12,14 @@ body {
 }
 
 body, html{
-	height: 100%;
-	max-width: 1200px;
-	width: 100%;
-	margin: auto;
+    height: 100%;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 
 .button{
-	font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 10px;
 	border-radius: 15px;
 	background-color: #4A90E2;
@@ -61,36 +61,36 @@ body, html{
     margin-top: 20px;
 }
 #nav div:last-child{
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 .title{
- 	font-family: 'Dosis', sans-serif;
- 	color: White;
- 	text-align: left;
- 	float: left;
- 	margin-left: 20px;
- 	font-size: 36px;
- 	line-height: .5;
+    font-family: 'Dosis', sans-serif;
+    color: White;
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+    font-size: 36px;
+    line-height: .5;
 
 }
 
 .banner{
-	height: 100px;
-	background-color: #FF816E;
+    height: 100px;
+    background-color: #FF816E;
 }
 
 .content{
-	width: 900px;
-	height: 400px;
-	margin: auto;
+    width: 900px;
+    height: 400px;
+    margin: auto;
 }
 
 .inner-content{
-	background-color: #fff;
-	height: 480px;
-	position: relative;
-	top: -40px;
+    background-color: #fff;
+    height: 480px;
+    position: relative;
+    top: -40px;
 }
 
 .clearfix:after {
@@ -107,5 +107,8 @@ body, html{
 .header {
     text-align: center;
 }
+
+
+
 
 
