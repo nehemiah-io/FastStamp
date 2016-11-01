@@ -42,7 +42,7 @@ body, html{
 .buttonsub{
     font-family: 'Dosis', sans-serif;
     font-size: 40px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: #4A90E2;
     color: White;
     text-align: center;
@@ -50,8 +50,21 @@ body, html{
     margin: auto;
     size:70px;
     position: absolute;
-    transform: translate(-50%, -50%);
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    left: 10%;
 
+}
+
+.buttonsub:hover {
+    background-color: #7BAEE9;
+}
+
+.buttonsub:active {
+    background-color: #9CC2EF;
 }
 
 .button:hover {
